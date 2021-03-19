@@ -1,8 +1,10 @@
 package pack;
 
+import java.util.Random;
+
 public class BeberEspartanoImpl implements Beber{
     @Override
-    public void beber() {
-        System.out.println("beber espar");
+    public Integer beber() {
+        return new Random().nextInt(10);
     }
 }

@@ -1,10 +1,10 @@
 package pack;
 
-public class Espartano extends Humano{
+public class Espartano extends Humano {
     private Integer toleranciaExtra;
 
-    public Espartano(String nombre, Integer edad, Integer peso, Integer toleranciaExtra) {
-        super(nombre, edad, peso, new BeberEspartanoImpl(),new OrinarEspartanoImpl());
+    public Espartano(String nombre, Integer edad, Integer peso, Integer toleranciaExtra, BeberEspartanoImpl beber, OrinarEspartanoImpl orinar) {
+        super(nombre, edad, peso, beber, orinar);
         this.toleranciaExtra = toleranciaExtra;
     }
 
@@ -14,5 +14,10 @@ public class Espartano extends Humano{
 
     public void setToleranciaExtra(Integer toleranciaExtra) {
         this.toleranciaExtra = toleranciaExtra;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " toleranciaExtra=" + toleranciaExtra;
     }
 }

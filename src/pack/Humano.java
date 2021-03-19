@@ -15,12 +15,12 @@ public abstract class Humano {
         this.orinar = orinar;
     }
 
-    public void beber(){
-        this.getBeber().beber();
+    public Integer beber() {
+        return this.getBeber().beber();
     }
 
-    public void orinar(){
-        this.getOrinar().orinar();
+    public String orinar() {
+        return this.getOrinar().orinar(getNombre());
     }
 
     public Beber getBeber() {
@@ -61,6 +61,14 @@ public abstract class Humano {
 
     public void setPeso(Integer peso) {
         this.peso = peso;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "nombre='" + nombre + '\'' +
+                        ", edad=" + edad +
+                        ", peso=" + peso+",";
     }
 }
 

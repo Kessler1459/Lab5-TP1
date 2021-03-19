@@ -1,5 +1,5 @@
 package pack;
 
 public interface Orinar {
-    public void orinar();
+    public String orinar(String nombre);
 }

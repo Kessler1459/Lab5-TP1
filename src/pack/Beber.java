@@ -1,5 +1,5 @@
 package pack;
 
 public interface Beber {
-    public void beber();
+    public Integer beber();
 }

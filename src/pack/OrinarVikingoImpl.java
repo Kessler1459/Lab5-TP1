@@ -2,7 +2,7 @@ package pack;
 
 public class OrinarVikingoImpl implements Orinar{
     @Override
-    public void orinar() {
-        System.out.println("orinar vik");
+    public String orinar(String nombre) {
+        return "El vikingo "+nombre+" se orina";
     }
 }

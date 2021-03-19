@@ -2,7 +2,7 @@ package pack;
 
 public class OrinarEspartanoImpl implements Orinar{
     @Override
-    public void orinar() {
-        System.out.println("orinar espart");
+    public String orinar(String nombre) {
+        return "El espartano "+nombre+" se orina";
     }
 }
