@@ -1,6 +1,11 @@
-package pack;
+package pack.models;
 
-public abstract class Humano {
+import pack.interfaces.Beber;
+import pack.interfaces.Orinar;
+
+import java.util.Objects;
+
+public abstract class Humano implements Comparable<Humano>{
     private String nombre;
     private Integer edad;
     private Integer peso;
@@ -61,6 +66,26 @@ public abstract class Humano {
 
     public void setPeso(Integer peso) {
         this.peso = peso;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Humano)) return false;
+
+        Humano humano = (Humano) o;
+
+        return Objects.equals(edad, humano.edad);
+    }
+
+    @Override
+    public int hashCode() {
+        return edad != null ? edad.hashCode() : 0;
+    }
+
+    @Override
+    public int compareTo(Humano o) {
+        return o.getEdad().compareTo(this.getEdad());
     }
 
     @Override

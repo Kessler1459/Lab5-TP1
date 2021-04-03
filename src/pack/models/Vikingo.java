@@ -1,4 +1,7 @@
-package pack;
+package pack.models;
+
+import pack.BeberVikingoImpl;
+import pack.OrinarVikingoImpl;
 
 public class Vikingo extends Humano {
     private Integer bebedorProfesional;

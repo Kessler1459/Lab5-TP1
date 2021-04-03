@@ -1,4 +1,7 @@
-package pack;
+package pack.models;
+
+import pack.BeberEspartanoImpl;
+import pack.OrinarEspartanoImpl;
 
 public class Espartano extends Humano {
     private Integer toleranciaExtra;

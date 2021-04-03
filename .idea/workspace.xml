@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="002d90df-605a-47c6-b5b5-68f34f67c7e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pack/Competencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/controllers/GanadorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/models/Ganador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/persistence/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/persistence/GanadorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/persistence/GanadorDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5-TP1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5-TP1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Beber.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/BeberEspartanoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/BeberEspartanoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Espartano.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Espartano.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/BeberVikingoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/BeberVikingoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Competencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Competencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Espartano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Humano.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Vikingo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Vikingo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/Beber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Beber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Orinar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/OrinarEspartanoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/OrinarEspartanoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/OrinarVikingoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/OrinarVikingoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5-TP1/pack/Vikingo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Beber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/interfaces/Beber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/BeberEspartanoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/BeberEspartanoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/BeberVikingoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/BeberVikingoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/Espartano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Espartano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Humano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Competencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Competencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Espartano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/models/Espartano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/models/Humano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/Orinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Orinar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Orinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/interfaces/Orinar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/OrinarEspartanoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/OrinarEspartanoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/OrinarVikingoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/OrinarVikingoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/Vikingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/Vikingo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/Vikingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/models/Vikingo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +54,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pqoU6ACmu7s3jukVKN8EwS33Jt" />
   <component name="ProjectLevelVcsManager">
@@ -99,8 +127,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pack.models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ivanc\IdeaProjects\Lab5-TP1\src\lib" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pack" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -127,7 +175,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615919996720</updated>
+      <workItem from="1617229096265" duration="6706000" />
+      <workItem from="1617310128634" duration="595000" />
+      <workItem from="1617320101266" duration="2565000" />
+      <workItem from="1617396955748" duration="1781000" />
+      <workItem from="1617459856568" duration="3284000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
